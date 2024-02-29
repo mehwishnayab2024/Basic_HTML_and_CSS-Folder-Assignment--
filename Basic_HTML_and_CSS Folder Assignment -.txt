@@ -1,0 +1,62 @@
+<!--Basic_HTML_3.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <title>This is the title</title>
+		<meta charset = "utf-8">
+		<link rel="stylesheet" type="text/css" href="Basic_CSS_1.css">
+    </head>
+	<body>
+	    
+		<script>
+		alert("Hello, World!!");
+		</script>
+		
+		<div>
+		    <p style= "color: red; font-size: 50px;">Here we go! Learning some HTML styling!</p>
+			<p>I'm going to make this text green using a CSS stylesheet.</p>
+		</div>
+		
+</html>
+
+/*Basic_CSS_1.css*/
+
+p {
+    color: green;
+	text-align: right;
+	
+}
+ 
+<!--Basic_HTML_4.html-->
+<html>
+     
+	<body>
+	     
+		<style>
+		 .font_1 {
+		background-color: black;
+		color: yellow;
+		font_size: large;
+		}
+		
+		.font_2 {
+		background-color: darkblue;
+		color: white;
+		font-size: medium;
+		]
+		
+		.My_style {
+		background-color: orange;
+		color: purple;
+		text-decoration: underline;
+		font-size: large;
+		}
+		</style>
+		
+		<h2 class="font_1">This h2 element is styled per class attribute font_1.</h2>
+		<h3 class="font_2">This h3 element is styled per class attribute font_2.</h3>
+		<h4 class="font_1">Evwn though this is an h4 element, it is styled the same as the h3 element because we pointed to the class attribute font_1.</h4>
+		<p class="My_style">This paragraph shows the style I want!</p>
+		
+    </body>
+</html>
